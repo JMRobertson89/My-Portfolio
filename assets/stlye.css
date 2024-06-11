@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.bg-gradiant {
+    background-image: linear-gradient(to right, #292b2b 30%, #5d6161);
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+header {
+    padding: 20px;
+    font-family: canva 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+header div {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+header div ul li {
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.about-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 25%;
+    padding: 20px;
+}
+
+.nav a {
+    margin: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.about {
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+
+.about p {
+    text-align:justify;
+    padding-top: 100px;
+    width: 700px;
+}
+
+
+.projects {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+.projects img {
+    width: 600px;
+    padding-right: 20px;
+}
+
+.box4,
+.box3,
+.box2,
+.box1 {
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    margin: 100px;
+    color: #292b2b;
+    background-color: #ffffff;
+    border-radius: 40%;
+    border: dotted;
+    text-align: center;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+
+.about-vertical-line {
+    width: 2px;
+    height: 350px;
+    background-color: #ffffff;
+    margin: 0 44px;
+}
+
+.projects-vertical-line {
+    width: 2px;
+    height: 1100px;
+    background-color: #ffffff;
+    margin: 0 20px;
+}
+
+.contact-vertical-line {
+    width: 2px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 0 25px;
+}
+
+.contact {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+}
+
+#icons {
+    width: 200px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+}
+
+
+
